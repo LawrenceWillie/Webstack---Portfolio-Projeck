@@ -1,0 +1,7 @@
+<!-- profile.html -->
+<h2>{{ user.username }}'s Profile</h2>
+<p>Email: {{ user.email }}</p>
+<p>Skills: {{ user.skills | join(', ') }}</p>
+<p>Portfolio: <a href="{{ user.portfolio }}" target="_blank">View Portfolio</a></p>
+<p>Courses Completed: {{ user.courses_completed | join(', ') }}</p>
+<p>Reviews: {{ user.reviews | join(', ') }}</p>
